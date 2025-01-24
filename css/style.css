@@ -1,0 +1,24 @@
+h1{
+	font-size: large;
+	font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+body {
+	line-height: 1;
+	background-color: #fffd74;
+}
+img{
+    position: center;
+}
+.column {
+    float: left;
+    width: 30.33%;
+    height: 30%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
